@@ -1,0 +1,23 @@
+{
+    "name": "srapps/myplugin",
+    "description": "Test Plugin",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Shuvo",
+            "email": "shuvorroy@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "My_Plugin\\": "includes/"
+        },
+        "files": [
+            "includes/helpers.php"
+        ]
+    }
+}
